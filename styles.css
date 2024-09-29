@@ -11,10 +11,10 @@ p {
     font-size: 18px;
 }
 div.relevantClasses {
-    width: 100%;
+    width: 95%;
     overflow: auto;
 }
 div.relevantClasses div {
-    width: 33%;
+    width: 50%;
     float: left;
 }
