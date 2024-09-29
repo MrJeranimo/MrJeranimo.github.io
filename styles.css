@@ -10,3 +10,11 @@ h3 {
 p {
     font-size: 18px;
 }
+div.relevantClasses {
+    width: 100%;
+    overflow: auto;
+}
+div.relevantClasses div {
+    width: 33%;
+    float: left;
+}
