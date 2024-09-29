@@ -1,13 +1,12 @@
 h1 {
-    font-size: 200%;
+    font-size: 55px;
 } 
 h2 {
-    font-size: 150%;
+    font-size: 32px;
 } 
 h3 {
-    font-size: 150%;
+    font-size: 26px;
 } 
 p {
-    font-size: 130%;
-    border: 1px solid black;
+    font-size: 18px;
 }
