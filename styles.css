@@ -14,10 +14,8 @@ p {
     font-size: 18px;
     text-align: center;
 }
-ul {
-    text-align: center;
-}
 div.relevantClasses {
     display: grid;
     grid-template-columns: 50% 50%;
+    background-color: grey;
 }
