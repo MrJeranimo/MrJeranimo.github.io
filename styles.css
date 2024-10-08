@@ -11,8 +11,12 @@ h3 {
     text-align: center;
 } 
 p {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: lightgray;
     font-size: 18px;
     text-align: center;
+
 }
 div.pageButtons {
     font-size: 24px;
