@@ -14,11 +14,17 @@ p {
     font-size: 18px;
     text-align: center;
 }
-div.pageButtons {
+#navbar {
     position: sticky;
+    top: 0;
+    overflow: hidden;
     font-size: 24px;
     color: white;
     text-align: center;
+}
+div.content {
+    background-color: lightgrey;
+    padding: 16px;
 }
 div.relevantClassesGrid {
     display: grid;
