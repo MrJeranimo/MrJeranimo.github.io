@@ -14,13 +14,32 @@ p {
     font-size: 18px;
     text-align: center;
 }
-#navbar {
+#one {
+    position: -webkit-sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
     position: sticky;
     top: 0;
-    overflow: hidden;
-    font-size: 24px;
+}
+  
+#liOne{
+    float: left;
+}
+  
+li a {
+    display: block;
     color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+  
+li a:hover {
+    background-color: rgb(68, 64, 64);
 }
 div.content {
     background-color: lightgrey;
