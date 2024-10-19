@@ -3,6 +3,11 @@ body {
     background-color: black;
 }
 
+main {
+    background-color: lightgrey;
+    padding: 16px;
+}
+
 h1 {
     font-size: 55px;
     text-align: center;
@@ -51,15 +56,75 @@ p {
     float: left;
 }
 
-.content {
-    background-color: lightgrey;
-    padding: 16px;
+footer {
+    background-color: rgb(36, 36, 36);
+}
+
+.footerContainer {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 90%;
+}
+
+.socialIcons a:hover {
+    background-color: #5b5b5b;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
 }
 
 .relevantClassesGrid {
     display: grid;
     grid-template-columns: 100%;
-    row-gap: 20px;
+    row-gap: 80px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -73,7 +138,7 @@ p {
 .schoolsGrid {
     display: grid;
     grid-template-columns: 100%;
-    row-gap: 20px;
+    row-gap: 80px;
     margin-left: 10%;
     margin-right: 10%;
 }
