@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: black;
+    overflow-x: hidden;
 }
 
 main {
@@ -28,15 +29,19 @@ p {
     text-align: center;
 }
 
+.navbar {
+    position: sticky;
+    top: 0px;
+}
+
 .navbar ul {
-    position: -webkit-sticky;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
-    position: sticky;
-    top: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .navbar a {
@@ -50,10 +55,6 @@ p {
 
 .navbar a:hover {
     background-color: rgb(68, 64, 64);
-}
-
-.navbar li {
-    float: left;
 }
 
 footer {
@@ -119,6 +120,21 @@ footer {
 
 .footerBottom p {
     color: white;
+}
+
+.bottomHeader {
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    opacity: 70%;
+}
+
+.bottomHeader:hover {
+    opacity: 0%;
 }
 
 .relevantClassesGrid {
