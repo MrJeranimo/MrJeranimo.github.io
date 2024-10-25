@@ -164,3 +164,9 @@ footer {
     padding: 20px;
     background-color: rgb(191, 191, 191);
 }
+
+.xavierImage {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
